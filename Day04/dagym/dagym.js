@@ -898,19 +898,19 @@ newData.forEach((v) => {
   const info = document.createElement("div");
   info.classList.add("info");
 
-  const category = document.createElement("sapn");
+  const category = document.createElement("span");
   category.classList.add("category");
   category.innerText = v.tags;
 
-  const gymName = document.createElement("sapn");
+  const gymName = document.createElement("span");
   gymName.classList.add("category");
   gymName.innerText = v.gymName;
 
-  const price = document.createElement("sapn");
+  const price = document.createElement("span");
   price.classList.add("category");
   price.innerText = v.price.originalPrice;
 
-  const service = document.createElement("sapn");
+  const service = document.createElement("span");
   service.classList.add("category");
   service.innerText = v.tags;
 
